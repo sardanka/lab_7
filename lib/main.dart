@@ -55,7 +55,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
   final FocusNode _confirmPasswordFocus = FocusNode();
 
   bool _obscurePassword = true;
-  bool _obscureConfirmPassword = true;
+  final bool _obscureConfirmPassword = true;
 
   @override
   void dispose() {
